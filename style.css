@@ -8,7 +8,13 @@
 .logo {
   max-width: 170px;
   height: auto;
-  background-color: white;
+  background-color: #15191f;
   padding: 8px;
   border-radius: 2px;
+}
+.content h3 {
+  color: #035bff;
+} 
+.content strong {
+  color: #4fc2f757;
 }
