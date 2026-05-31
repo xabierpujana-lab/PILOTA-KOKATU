@@ -17,14 +17,11 @@
   background-color: #20262e;
   padding: 28px 60px;
   line-height: 1.7;
-  text-align: justify;
+  text-align: left;
 } 
 .content strong {
   color: #21ebeb;
   background-color: #20262e;
-  padding: 28px 60px;
-  line-height: 1.7;
-  text-align: justify;
 }
 
 header {
