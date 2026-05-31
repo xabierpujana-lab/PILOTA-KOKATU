@@ -6,15 +6,80 @@
 }
 
 .logo {
-  max-width: 170px;
-  height: auto;
+  max-width: 250px;
+  height: auto;S
   background-color: #15191f;
   padding: 8px;
   border-radius: 2px;
 }
 .content h3 {
   color: #ffffff;
+  background-color: #20262e;
+  padding: 28px 60px;
+  line-height: 1.7;
+  text-align: justify;
 } 
 .content strong {
   color: #21ebeb;
+  background-color: #20262e;
+  padding: 28px 60px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+header {
+  position: relative;
+}
+
+.language-buttons {
+  position: absolute;
+  top: 14px;
+  right: 32px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.language-buttons button {
+  width: 58px;
+  height: 34px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #009bd3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.language-buttons button:hover {
+  background-color: #009bd3;
+}
+
+.language-buttons button.active {
+  background-color: #009bd3;
+  color: white;
+}
+.sub-content {
+  background-color: #20262e;
+  padding: 28px 60px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.sub-content p {
+  margin: 12px 0;
+  text-align: justify;
+}
+
+.sub-content ul,
+.sub-content ol {
+  margin-left: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.sub-content li {
+  margin-bottom: 8px;
+  text-align: justify;
 }
