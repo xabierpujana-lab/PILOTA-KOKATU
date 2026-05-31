@@ -99,3 +99,9 @@ header {
   background-color: #009bd3;
   color: #ffffff;
 }
+.footer-licencia {
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 40px;
+  color: #ffffff;
+}
