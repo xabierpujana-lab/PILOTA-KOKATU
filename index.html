@@ -58,7 +58,7 @@
    <div class="cabecera">
      <div>
       <h1>PILOTA-KOKATU</h1>
-      <p>Servomotor kontrola PID bidez</p>
+       <p>Servomotor baten kontrola PID bidez</p>
      </div>
 
      <div class="logos">
@@ -74,30 +74,30 @@
       <summary>1. Arduradunaren datuak</summary>
       <div class="content">
         <p><strong>Izena:</strong> Xabier Pujana</p>
-    <p><strong>Kontaktua:</strong> xabier.pujana@zulaibar.net</p>
+        <p><strong>Kontaktua:</strong> xabier.pujana@zulaibar.net</p>
       </div>
     </details>
 
     <details>
       <summary>2. Deskribapena eta laburpena</summary>
-      <div class="content">
+       <div class="content">
         <p>Maketa honetan pieza zirkular baten posizio kontrol automatikoa programatu beharko da.</p> 
         <p>Pieza hau servomotore batek trakzionatutako erreia lineal baten egongo da kokatuta. </p>
         <p>Azken honek erreia hori alde batera zein bestera inklinatuko du.</p>
         <p>Posizio kontrola erreiari paralelo guztiz eta alde baten kokatuta dagoen sentsore analogiko baten bidez egingo da.</p>
 
-      </div>
+       </div>
     </details>
 
     <details>
       <summary>3. Helburuak</summary>
-      <div class="content">
+       <div class="content">
          <ul>
-    <li>Neurtzeko eta erregulatzeko gailuak ezagutzen ditu, horien funtzionaltasuna identifikatuz.</li>
-    <li>Industria-sistemetako erregulazio-lotura osatzen duten elementuak identifikatu.</li>
-    <li>PLC kontrol sekuentzialeko sistema batean konektatu, programatu, egiaztatu eta funtzionamenduan jarri.</li>
-  </ul>
-      </div>
+          <li>Neurtzeko eta erregulatzeko gailuak ezagutzen ditu, horien funtzionaltasuna identifikatuz.</li>
+          <li>Industria-sistemetako erregulazio-lotura osatzen duten elementuak identifikatu.</li>
+          <li>PLC kontrol sekuentzialeko sistema batean konektatu, programatu, egiaztatu eta funtzionamenduan jarri.</li>
+         </ul>
+       </div>
     </details>
 
     <details>
@@ -111,59 +111,84 @@
       <summary>5. Ezaugarriak eta aldagaiak</summary>
       <div class="content">
 
-    <section class="info-block">
-      <h3>PLC konfigurazioa</h3>
-      <p><strong>Automata:</strong> CPU 1212C AC/DC/Rly</p>
-      <p><strong>Erreferentzia:</strong> 6ES7 212-1BE40-0XB0</p>
-      <p><strong>IP helbidea:</strong> 172.21.4.115</p>
-      <p><strong>Firmware bertsioa:</strong> V4.4</p>
-    </section>
+      <section class="info-block">
+       <h3>PLC konfigurazioa</h3>
+        <p><strong>Automata:</strong> CPU 1212C AC/DC/Rly</p>
+        <p><strong>Erreferentzia:</strong> 6ES7 212-1BE40-0XB0</p>
+        <p><strong>IP helbidea:</strong> 172.21.4.115</p>
+        <p><strong>Firmware bertsioa:</strong> V4.4</p>
+      </section>
 
-    <section class="info-block">
-      <h3>Sentsore analogikoa</h3>
-      <p><strong>Telemecanique ultrasonic sensor cylindrical:</strong> XX918A3C2M12</p>
-      <p><strong>Neurketa-tartea:</strong> 0,5 m - 4,20 mA</p>
-    </section>
+      <section class="info-block">
+       <h3>Sentsore analogikoa</h3>
+        <p><strong>Modeloa:</strong>Telemecanique ultrasonic sensor cylindrical (XX918A3C2M12)</p>
+        <p><strong>Neurketa-tartea:</strong> 0,5 m - 4,20 mA</p>
+      </section>
 
-    <section class="info-block">
-      <h3>Servomotorra</h3>
-      <p><strong>Modeloa:</strong> Mitsubishi Electric HG-KR43</p>
-    </section>
+      <section class="info-block">
+       <h3>Servomotorra</h3>
+        <p><strong>Modeloa:</strong> Mitsubishi Electric HG-KR43</p>
+      </section>
+  
+      <section class="info-block">
+       <h3>Servo Driverra</h3>
+        <p><strong>Modeloa:</strong> MELSERVO-JE Series MR-J4-40TM-LD</p>
+      </section>
 
-    <section class="info-block">
-      <h3>Servo Driverra</h3>
-      <p><strong>Modeloa:</strong> MELSERVO-JE Series MR-J4-40TM-LD</p>
-    </section>
-
-    <section class="info-block">
-      <h3>Sarrerak eta Irteerak</h3>
-      <p><strong>%IW64:</strong> Distantzia Sentsora</p>
-      <p><strong>Q0.2:</strong> Teaching Sentsora</p>
-    </section>
+      <section class="info-block">
+       <h3>Sarrerak eta Irteerak</h3>
+        <p><strong>%IW64:</strong> Distantzia Sentsora</p>
+        <p><strong>Q0.2:</strong> Teaching Sentsora</p>
+      </section>
       </div>
     </details>
     <details>
-      <summary>6. Praktikak</summary>
-      <div class="content">
 
-    <section class="info-block">
-      <h3>Servoaren "0"A Bilatu</h3>
-    </section>
-    <section class="info-block">
-      <h3>Servoa mugitu,nibelean ipini</h3>
-    </section>
-    <section class="info-block">
-      <h3>Servoa mugitu posizio jakinetan (STEP)</h3>
-    </section>
-    <section class="info-block">
-      <h3>Sentsorea normalizatu,eskalatu</h3>
-    </section>
-    <section class="info-block">
-      <h3>PID, Tunning Fine</h3>
-    </section>
-    <section class="info-block">
-      <h3>Posizioaren kontrol osoa</h3>
-    </section>
+      <summary>6. Praktikak</summary>
+       <div class="content">
+
+        <details class="sub-details">
+         <summary>6.1 Servoaren "0"A Bilatu </summary>
+           <div class="sub-content">
+            <p>Hemen 1. praktikaren azalpena sartuko da.</p>
+            </div>
+        </details>
+
+        <details class="sub-details">
+         <summary>6.2 Servoa mugitu, nibelean ipini </summary>
+           <div class="sub-content">
+            <p>Hemen 2.praktikaren azalpena sartuko da.</p>
+            </div>
+        </details>
+
+        <details class="sub-details">
+         <summary>6.3 Servoa mugitu posizio jakinetan (STEP) </summary>
+           <div class="sub-content">
+            <p>Hemen 3.praktikaren azalpena sartuko da.</p>
+            </div>
+        </details>
+
+        <details class="sub-details">
+         <summary>6.4 Sentsorea normalizatu, eskalatu </summary>
+           <div class="sub-content">
+            <p>Hemen 4.praktikaren azalpena sartuko da.</p>
+            </div>
+        </details>
+
+        <details class="sub-details">
+         <summary>6.5 PID, Tunning Fine </summary>
+           <div class="sub-content">
+            <p>Hemen 5.praktikaren azalpena sartuko da.</p>
+           </div>
+         </details>
+
+        <details class="sub-details">
+         <summary>6.6 Posizioaren kontrol osoa </summary>
+           <div class="sub-content">
+            <p>Hemen 6.praktikaren azalpena sartuko da.</p>
+          </div>
+        </details>
+      </div>
     </details>
   </main>
 
