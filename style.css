@@ -120,3 +120,26 @@ header {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.plc-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 40px;
+}
+
+.plc-textua {
+  flex: 1;
+}
+
+.plc-textua p {
+  margin: 8px 0;
+}
+
+.plc-irudia img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+

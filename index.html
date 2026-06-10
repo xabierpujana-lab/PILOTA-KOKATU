@@ -193,8 +193,11 @@
            <a href="docs/.pdf"target="_blank"class="pdf-button lang lang-es">
             <span class="lang lang-es">Abrir documento PDF</span>
            </a>
-            <span class="texto-boton lang lang-eu">HASIERAKO KONFIGURAZIOA</span>
-            <span class="texto-boton lang lang-es">CONFIGURACIÓN INICIAL</span>
+            <!-- Vídeo incrustado en la página -->
+<video width="800" height="450" controls>
+  <source src="videos/HASIERAKO KONFIGURAZIOA.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de vídeo.
+</video>
          </div>
         </details>
 
@@ -249,6 +252,9 @@
                 <span class="lang lang-eu"> <strong>Firmware bertsioa:</strong> V4.4</span>
                 <span class="lang lang-es"> <strong>Versión Firmware:</strong> V4.4</span>
              </p>
+               <div class="plc-irudia">
+                <img src="img/PLC.jpg" alt="PLC Siemens S7-1200">
+               </div>
           
          </details>
 
@@ -265,6 +271,9 @@
               <span class="lang lang-eu">  <strong>Neurketa-tartea:</strong> 0,5 m - 4,20 mA</span>
               <span class="lang lang-es">  <strong>Intervalo de medición:</strong> 0,5 m - 4,20 mA</span>
             </p>
+              <div class="plc-irudia">
+                <img src="img/SENTSOREA.jpg" alt="PLC Siemens S7-1200">
+               </div>
         </details>
    
         <details class="sub-details">
@@ -276,6 +285,9 @@
               <span class="lang lang-eu">  <strong>Modeloa:</strong> Mitsubishi Electric HG-KR43</span>
               <span class="lang lang-es">  <strong>Modelo:</strong> Mitsubishi Electric HG-KR43</span>   
             </p>
+            <div class="plc-irudia">
+                <img src="img/servomotorra.jpg" alt="PLC Siemens S7-1200">
+               </div>
         </details>
       
         <details class="sub-details">
@@ -287,6 +299,9 @@
              <span class="lang lang-eu">  <strong>Modeloa:</strong> MELSERVO-JE Series MR-J4-40TM-LD</span>
              <span class="lang lang-es">  <strong>Modelo:</strong> MELSERVO-JE Series MR-J4-40TM-LD</span>   
             </p>
+            <div class="plc-irudia">
+                <img src="img/DRIVERRA.jpg" alt="PLC Siemens S7-1200">
+               </div>
         </details>
 
         <details class="sub-details">
@@ -348,16 +363,16 @@
            <section style="padding: 10px;">
 
             <div class="lang-eu">
-            <p>Praktika honetan Servomotorra mugituko dugu alde batera eta bestera</p>
+            <p>Praktika honetan Servomotorra mugituko dugu DASHBOARD bidez eta bere "0" posizioa markatu</p>
             <h3 style="color: #00a0d2;">Helburuak</h3>
-            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin hasierako hartu emonak izatea</p>
+            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin eta DASHBOARDarekin hasierako hartu emonak izatea</p>
             <h3 style="color: #00a0d2;">Jarraibideak</h3>
             <p>Ondorengo linkean ikusteko</p>
             </div>
             <div class="lang-es">
-            <p>En esta práctica moveremos el Servomotor de un lado a otro</p>
+            <p>En esta práctica moveremos el Servomotor PARA MARCAR SU "0" POSICIÓN y manejaremos la DASHBOARD</p>
             <h3 style="color: #00a0d2;">Objetivos</h3>
-            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo</p>
+            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo y la DASHBOARD</p>
             <h3 style="color: #00a0d2;">Instrucciones</h3>
             <p>Ver en el siguiente link</p>
             </div>
@@ -373,16 +388,16 @@
             <section style="padding: 10px;">
 
             <div class="lang-eu">
-            <p>Praktika honetan Servomotorra mugituko dugu alde batera eta bestera</p>
+            <p>Praktika honetan Servomotorra mugituko dugu Programatutako Posizioetara</p>
             <h3 style="color: #00a0d2;">Helburuak</h3>
-            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin hasierako hartu emonak izatea</p>
+            <p>Servoa mugitzeko kontrolerako DBan hasierako baloreak sartu eta konfigurazio parametroak ezagutzen hastea</p>
             <h3 style="color: #00a0d2;">Jarraibideak</h3>
             <p>Ondorengo linkean ikusteko</p>
             </div>
             <div class="lang-es">
-            <p>En esta práctica moveremos el Servomotor de un lado a otro</p>
+            <p>En esta práctica moveremos el Servomotor a posiciones programadas</p>
             <h3 style="color: #00a0d2;">Objetivos</h3>
-            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo</p>
+            <p>Comenzar con los movimientos  programados mediante el DB de CONTROL de EJE de la plantilla y conocer los parametros de configuración del mismo </p>
             <h3 style="color: #00a0d2;">Instrucciones</h3>
             <p>Ver en el siguiente link</p>
             </div>
@@ -398,16 +413,16 @@
            <section style="padding: 10px;">
 
             <div class="lang-eu">
-            <p>Praktika honetan Servomotorra mugituko dugu alde batera eta bestera</p>
+            <p>Praktika honetan Posizio neurketarako sentsorea eskalatzea programatuko dugu</p>
             <h3 style="color: #00a0d2;">Helburuak</h3>
-            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin hasierako hartu emonak izatea</p>
+            <p>NORM-X eta SCALE moduko komandoekin sentsorearen neurriak ajustatzen ikastea</p>
             <h3 style="color: #00a0d2;">Jarraibideak</h3>
             <p>Ondorengo linkean ikusteko</p>
             </div>
             <div class="lang-es">
-            <p>En esta práctica moveremos el Servomotor de un lado a otro</p>
+            <p>En esta práctica programaremos el escalado del sensor de posicion</p>
             <h3 style="color: #00a0d2;">Objetivos</h3>
-            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo</p>
+            <p>Aprender a ajustar los valores de medida del sensor mediante los comandos de programacion NORM-X y SCALE</p>
             <h3 style="color: #00a0d2;">Instrucciones</h3>
             <p>Ver en el siguiente link</p>
             </div>
@@ -423,16 +438,16 @@
             <section style="padding: 10px;">
 
             <div class="lang-eu">
-            <p>Praktika honetan Servomotorra mugituko dugu alde batera eta bestera</p>
+            <p>Praktika honetan posizio erregulazioarekin hastapenak egingo ditugu</p>
             <h3 style="color: #00a0d2;">Helburuak</h3>
-            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin hasierako hartu emonak izatea</p>
+            <p>PID Compact blokeagaz erregulatzen hastea posizioa kontrolatuz</p>
             <h3 style="color: #00a0d2;">Jarraibideak</h3>
             <p>Ondorengo linkean ikusteko</p>
             </div>
             <div class="lang-es">
-            <p>En esta práctica moveremos el Servomotor de un lado a otro</p>
+            <p>En esta práctica comenzaremos a controlar la regulación de posicion </p>
             <h3 style="color: #00a0d2;">Objetivos</h3>
-            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo</p>
+            <p>Kontrolar la posición mediante el bloque PID Compact</p>
             <h3 style="color: #00a0d2;">Instrucciones</h3>
             <p>Ver en el siguiente link</p>
             </div>
@@ -448,16 +463,16 @@
             <section style="padding: 10px;">
 
             <div class="lang-eu">
-            <p>Praktika honetan Servomotorra mugituko dugu alde batera eta bestera</p>
+            <p>Praktika honetan Aurretik ikusitako kontzeptuak elkartu eta erregulazio konpletua egingo dugu</p>
             <h3 style="color: #00a0d2;">Helburuak</h3>
-            <p>Servoa mugitzeko <strong>JOG_P</strong> eta <strong>JOG_N</strong> mugimenduekin hastea eta servoaren posizioaren baloreekin hasierako hartu emonak izatea</p>
+            <p>Jasotako Erregulazio kontzeptuak eta programazio kontzeptuak elkartu eta maketaren posizio kontrol osoa egin</p>
             <h3 style="color: #00a0d2;">Jarraibideak</h3>
             <p>Ondorengo linkean ikusteko</p>
             </div>
             <div class="lang-es">
-            <p>En esta práctica moveremos el Servomotor de un lado a otro</p>
+            <p>En esta práctica haremos un control total de la maqueta usando los conceptos anteriores.</p>
             <h3 style="color: #00a0d2;">Objetivos</h3>
-            <p>Comenzar con los movimientos <strong>JOG_P</strong> y <strong>JOG_N</strong> para mover el servo y toma de contacto inicial con los valores de posición del servo</p>
+            <p>mediante los conceptos de regulación y los de programación, programar un control total de la posición</p>
             <h3 style="color: #00a0d2;">Instrucciones</h3>
             <p>Ver en el siguiente link</p>
             </div>
